@@ -59,32 +59,7 @@ This project provides a simple image encryption tool using pixel manipulation. U
     - The mathematical transformation is reversed to restore the original pixel values.
 
 
-# 🔍 Task 2: Pixel Manipulation for Image Encryption 🔍  
-
-## Overview
-This project provides a simple image encryption tool using pixel manipulation. Users can encrypt and decrypt images using two methods: pixel swapping and mathematical operations.
-
-## Features
-- **Image Encryption**: Encrypt images by altering pixel values.
-- **Image Decryption**: Decrypt images back to their original state.
-- **User-Friendly Interface**: Command-line interface for selecting images and applying encryption/decryption.
-
-## How It Works.
-### Encryption Methods
-1. **Pixel Swapping**:
-    - Pixels are swapped based on a pseudo-random sequence generated using the provided key.
-    - The sequence ensures that the same key will always result in the same encrypted image.
-2. **Mathematical Operations**:
-    - Each pixel value is transformed using a mathematical operation and the provided key.
-
-### Decryption Methods
-1. **Pixel Swapping**:
-    - The pixel swapping operation is reversed using the same key to restore the original image.
-2. **Mathematical Operations**:
-    - The mathematical transformation is reversed to restore the original pixel values.
-
-
-# Task 3: Password Complexity Checker Tool
+# 🔍 Task 3: Password Complexity Checker Tool 🔍 
 ## Overview
 This repository contains a Python-based tool designed to assess the strength of passwords. The tool evaluates passwords against several key criteria to determine their complexity and provide a strength rating.
 
