@@ -57,3 +57,61 @@ This project provides a simple image encryption tool using pixel manipulation. U
     - The pixel swapping operation is reversed using the same key to restore the original image.
 2. **Mathematical Operations**:
     - The mathematical transformation is reversed to restore the original pixel values.
+
+
+# 🔍 Task 2: Pixel Manipulation for Image Encryption 🔍  
+
+## Overview
+This project provides a simple image encryption tool using pixel manipulation. Users can encrypt and decrypt images using two methods: pixel swapping and mathematical operations.
+
+## Features
+- **Image Encryption**: Encrypt images by altering pixel values.
+- **Image Decryption**: Decrypt images back to their original state.
+- **User-Friendly Interface**: Command-line interface for selecting images and applying encryption/decryption.
+
+## How It Works.
+### Encryption Methods
+1. **Pixel Swapping**:
+    - Pixels are swapped based on a pseudo-random sequence generated using the provided key.
+    - The sequence ensures that the same key will always result in the same encrypted image.
+2. **Mathematical Operations**:
+    - Each pixel value is transformed using a mathematical operation and the provided key.
+
+### Decryption Methods
+1. **Pixel Swapping**:
+    - The pixel swapping operation is reversed using the same key to restore the original image.
+2. **Mathematical Operations**:
+    - The mathematical transformation is reversed to restore the original pixel values.
+
+
+# Task 3: Password Complexity Checker Tool
+## Overview
+This repository contains a Python-based tool designed to assess the strength of passwords. The tool evaluates passwords against several key criteria to determine their complexity and provide a strength rating.
+
+## Features
+- **Length Check**: Ensures the password is at least 8 characters long.
+- **Uppercase Check**: Verifies the presence of at least one uppercase letter.
+- **Lowercase Check**: Verifies the presence of at least one lowercase letter.
+- **Number Check**: Verifies the presence of at least one digit.
+- **Special Character Check**: Verifies the presence of at least one special character (e.g., !, @, #, $, etc.).
+
+## Password Strength Classification
+- **Strong Password**: Meets all five criteria.
+- **Good Password**: Meets three or four of the criteria.
+- **Weak Password**: Meets less than three criteria.
+
+## Usage
+### To use the password complexity checker tool:
+
+1. Clone the repository to your local machine.
+2. Run the Python script password_complexity_checker.py.
+3. Enter a password when prompted.
+4. The tool will output the strength of the password as "Strong Password," "Good Password," or "Weak Password."
+
+## Contributions
+
+### Feel free to contribute to this project by:
+
+- Improving the criteria for password strength.
+- Adding more features to enhance the tool.
+- Optimizing the code for better performance.
